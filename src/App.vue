@@ -1,8 +1,8 @@
 <script setup lang="ts">
 import { RouterLink, RouterView } from "vue-router";
 import NavBar from "./components/NavBar/NavBar.vue";
-import Burger from "./components/menu/Burger.vue";
-import Sidebar from "./components/menu/Sidebar.vue";
+import Burger from "./components/menu//Burger.vue";
+import Sidebar from "./components/menu//Sidebar.vue";
 </script>
 
 <template>
