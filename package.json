@@ -5,7 +5,9 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "run-p type-check \"build-only {@}\" --",
+    "prestart": "npm run build",
+    "build": "npx vite build",
+    "start": "node server.cjs",
     "preview": "vite preview",
     "build-only": "vite build",
     "type-check": "vue-tsc --build",
@@ -14,6 +16,7 @@
   },
   "dependencies": {
     "express": "^4.21.2",
+    "serve-static": "^1.16.2",
     "vue": "^3.5.13",
     "vue-router": "^4.5.0",
     "vuex": "^4.0.2"
