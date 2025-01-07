@@ -807,14 +807,11 @@
   </div>
 </template>
 
-<script>
+<script lang="ts">
 export default {
   name: "OnlineBookings",
   created() {
     document.title = "Online Bookings";
-  },
-  computed: {
-    isDisabled: true,
   },
 };
 </script>

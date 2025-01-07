@@ -11,8 +11,8 @@
   </div>
 </template>
 
-<script>
-import { store, mutations } from "@/store.js";
+<script lang="ts">
+import { store, mutations } from "../../store";
 
 export default {
   computed: {

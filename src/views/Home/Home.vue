@@ -65,8 +65,6 @@
 
 <script lang="ts">
 // @ is an alias to /src
-// import HelloWorld from '@/components/HelloWorld.vue'
-import RequestQuote from "@/components/RequestQuote/RequestQuote.vue";
 
 export default {
   name: "Home",
@@ -79,9 +77,6 @@ export default {
     closeModal() {
       this.isShowingQuoteRequest = false;
     },
-  },
-  components: {
-    RequestQuote,
   },
   created() {
     document.title = "Kane Maslen - Portfolio";
