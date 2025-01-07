@@ -2,7 +2,7 @@
   .page {
     .note {
       height: 130px;
-      background: #457B9D;
+      background: #457b9d;
     }
     .alt-flexed {
       justify-content: flex-start;
@@ -18,18 +18,24 @@
     }
     .img-bg {
       border-radius: 2px;
-      box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+      box-shadow:
+        0 1px 3px rgba(0, 0, 0, 0.12),
+        0 1px 2px rgba(0, 0, 0, 0.24);
     }
     .site-nav {
-      background: #FFFFFF;
+      background: #ffffff;
       border-radius: 2px;
-      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+      box-shadow:
+        0 1px 3px rgba(0, 0, 0, 0.12),
+        0 1px 2px rgba(0, 0, 0, 0.24);
       padding: 30px;
       margin-top: 20px;
     }
     .statement {
-      background: #E5E3E4;
-      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+      background: #e5e3e4;
+      box-shadow:
+        0 1px 3px rgba(0, 0, 0, 0.12),
+        0 1px 2px rgba(0, 0, 0, 0.24);
       padding: 20px;
       border-radius: 5px;
       margin-top: 20px;
@@ -39,7 +45,8 @@
     }
   }
   .sales {
-    .tablet-holder, .mobile-holder {
+    .tablet-holder,
+    .mobile-holder {
       max-width: 1200px;
 
       .tablet {

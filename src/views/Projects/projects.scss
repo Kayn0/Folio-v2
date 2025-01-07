@@ -1,14 +1,16 @@
-#online-bookings, #sales-dashboard, #clinical-notes, #about {
-
+#online-bookings,
+#sales-dashboard,
+#clinical-notes,
+#about {
   h1 {
     font-family: Montserrat-Regular, sans-serif;
-    color: #1D3557;
+    color: #1d3557;
     span {
-      color: #F14D59;
+      color: #f14d59;
     }
   }
   h2 span {
-    color: #F14D59;
+    color: #f14d59;
   }
   .margin-top-med {
     margin-top: 100px;
@@ -16,7 +18,7 @@
 
   .page {
     align-items: center;
-    background: #FFFFFF;
+    background: #ffffff;
     display: flex;
     flex-direction: row;
     height: 100%;
@@ -27,21 +29,23 @@
     }
 
     &.colour-bg {
-      background: linear-gradient(135deg, #B6FFDC, #90F1FE);
+      background: linear-gradient(135deg, #b6ffdc, #90f1fe);
       min-height: 90vh;
     }
     &.colour-bg-alt {
-      background: linear-gradient(135deg, #F1F5D9, #FFE6C0);
+      background: linear-gradient(135deg, #f1f5d9, #ffe6c0);
       min-height: 90vh;
     }
-    &.colour-bg, &.colour-bg-alt, &.colour-bg-alt-1 {
+    &.colour-bg,
+    &.colour-bg-alt,
+    &.colour-bg-alt-1 {
       &.conclusion {
         min-height: auto;
       }
     }
 
     &.flat-bg {
-      background: #DCF0F1;
+      background: #dcf0f1;
     }
 
     &.break-page {
@@ -53,7 +57,6 @@
       padding: 60px 0;
       min-height: auto;
     }
-
 
     &.vert-space-lge {
       padding: 120px 0;
@@ -91,18 +94,18 @@
       }
 
       .note {
-        background: #457B9D;
+        background: #457b9d;
         border-radius: 2px;
-        box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-        color: #FFFFFF;
+        box-shadow:
+          0 1px 3px rgba(0, 0, 0, 0.12),
+          0 1px 2px rgba(0, 0, 0, 0.24);
+        color: #ffffff;
         flex: 1;
         font-size: 12px;
         line-height: 20px;
         max-width: 120px;
         padding: 15px;
       }
-
-
 
       .stacked-images {
         display: flex;
@@ -119,14 +122,17 @@
         max-width: 800px;
       }
 
-      .mobile-holder, .wireframe-holder  {
+      .mobile-holder,
+      .wireframe-holder {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-between;
         .mobile {
           width: calc(50% - 20px);
-          box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+          box-shadow:
+            0 1px 3px rgba(0, 0, 0, 0.12),
+            0 1px 2px rgba(0, 0, 0, 0.24);
           border-radius: 16px;
           margin-bottom: 40px;
         }
@@ -159,12 +165,12 @@
         margin: 20px 0 0;
       }
       .wireframe {
-        box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+        box-shadow:
+          0 1px 3px rgba(0, 0, 0, 0.12),
+          0 1px 2px rgba(0, 0, 0, 0.24);
         width: 100%;
         margin: 5px 0 50px;
       }
-
-
     }
     .toolkit {
       margin: 5px 0 50px;
@@ -177,7 +183,7 @@
     margin-bottom: 40px;
   }
   .info-card {
-    background: #ECF2F5;
+    background: #ecf2f5;
     font-size: 14px;
     line-height: 28px;
     display: flex;
@@ -185,25 +191,27 @@
     height: 190px;
     padding: 30px;
     &.alt1 {
-      background: #FEEDEE;
+      background: #feedee;
     }
     &.alt2 {
-      background: #F7FCF5;
+      background: #f7fcf5;
     }
     &.alt3 {
-      background: #EEF8F8;
+      background: #eef8f8;
     }
   }
 
   .image-label {
-    background: #457B9D;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    background: #457b9d;
+    box-shadow:
+      0 1px 3px rgba(0, 0, 0, 0.12),
+      0 1px 2px rgba(0, 0, 0, 0.24);
     border-radius: 2px;
-    color: #FFFFFF;
+    color: #ffffff;
     padding: 30px;
     width: calc(100% - 60px);
     h6 {
-      color: #FFFFFF;
+      color: #ffffff;
     }
     &:first-child {
       margin-top: -86px;
@@ -212,8 +220,10 @@
 
   .box {
     border-radius: 3px;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-    color: #FFFFFF;
+    box-shadow:
+      0 1px 3px rgba(0, 0, 0, 0.12),
+      0 1px 2px rgba(0, 0, 0, 0.24);
+    color: #ffffff;
     font-size: 14px;
     text-align: left;
     width: 185px;
@@ -225,46 +235,50 @@
     }
 
     &.bg-1 {
-      background: #A4326D;
+      background: #a4326d;
     }
 
     &.bg-2 {
-      background: #8165B2;
+      background: #8165b2;
     }
 
     &.bg-3 {
-      background: #5E7BC6;
+      background: #5e7bc6;
     }
   }
 
   .image-content {
     display: flex;
     flex-direction: column;
-      a.label-heading {
-        color: #FFFFFF;
-        margin-top: 50px;
-        text-decoration: none;
-        transition: all 0.2s ease;
-        &:hover {
-          box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-          text-decoration: underline;
-        }
-      }
-    img {
-        width: 100%;
-        height: auto;
+    a.label-heading {
+      color: #ffffff;
+      margin-top: 50px;
+      text-decoration: none;
+      transition: all 0.2s ease;
+      &:hover {
+        box-shadow:
+          0 1px 3px rgba(0, 0, 0, 0.12),
+          0 1px 2px rgba(0, 0, 0, 0.24);
+        text-decoration: underline;
       }
     }
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
   .flexed {
     justify-content: space-between;
     margin-top: 10px;
     .boxed {
-      background: #ECF2F5;
+      background: #ecf2f5;
       border-radius: 2px;
-      box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+      box-shadow:
+        0 1px 3px rgba(0, 0, 0, 0.12),
+        0 1px 2px rgba(0, 0, 0, 0.24);
       color: #222222;
       flex: 1;
-      font-family: "Montserrat-Light", sans-serif;
+      font-family: 'Montserrat-Light', sans-serif;
       font-size: 14px;
       justify-content: space-between;
       line-height: 24px;
@@ -273,13 +287,13 @@
 
       h6 {
         font-size: 14px;
-        font-family: "Montserrat-Bold", sans-serif;
+        font-family: 'Montserrat-Bold', sans-serif;
         margin: 0;
       }
     }
 
     .boxed:last-child {
-      background: #F1F9F9;
+      background: #f1f9f9;
       flex: 1;
     }
   }
@@ -301,7 +315,9 @@
 
   .user-journey {
     border-radius: 3px;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    box-shadow:
+      0 1px 3px rgba(0, 0, 0, 0.12),
+      0 1px 2px rgba(0, 0, 0, 0.24);
     margin: 20px 0 120px;
     width: 320px;
     img {
@@ -313,7 +329,8 @@
     margin-bottom: 40px;
   }
 
-  .tablet-holder, .mobile-holder {
+  .tablet-holder,
+  .mobile-holder {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -328,17 +345,17 @@
       width: calc(12% - 10px);
     }
   }
-  .hi-res  {
+  .hi-res {
     border-radius: 3px;
     margin-bottom: 60px;
     width: 100%;
     &.custom-margin {
-      margin-bottom: 10px
+      margin-bottom: 10px;
     }
   }
   .label-details {
     border-radius: 2px;
-    background: #DCF0F1;
+    background: #dcf0f1;
     padding: 30px;
     width: calc(100% - 60px);
     margin-bottom: 20px;
@@ -350,7 +367,7 @@
   margin-top: 20px;
   .points {
     align-items: center;
-    background: #FFFFFF;
+    background: #ffffff;
     border-radius: 2px;
     font-size: 14px;
     height: 54px;
@@ -360,13 +377,15 @@
     max-width: max-content;
     line-height: 20px;
     &.alt {
-      background: #DCF0F1;
+      background: #dcf0f1;
     }
   }
 }
 
 @media only screen and (max-width: 768px) {
-  #online-bookings, #sales-dashboard, #clinical-notes {
+  #online-bookings,
+  #sales-dashboard,
+  #clinical-notes {
     .page {
       width: calc(100% - 40px);
       padding: 0 20px;
@@ -387,7 +406,9 @@
 }
 
 @media only screen and (max-width: 652px) {
-  #online-bookings, #sales-dashboard, #clinical-notes {
+  #online-bookings,
+  #sales-dashboard,
+  #clinical-notes {
     .page {
       min-height: auto;
       .old-flow {
@@ -423,11 +444,14 @@
   }
 }
 
-
 @media only screen and (max-width: 420px) {
-  #online-bookings, #sales-dashboard, #clinical-notes {
+  #online-bookings,
+  #sales-dashboard,
+  #clinical-notes {
     .page {
-      &.colour-bg, &.colour-bg-alt, &.colour-bg-alt-1 {
+      &.colour-bg,
+      &.colour-bg-alt,
+      &.colour-bg-alt-1 {
         min-height: 60vh !important;
       }
 

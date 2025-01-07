@@ -1,11 +1,12 @@
 <script setup lang="ts">
 import { RouterLink, RouterView } from "vue-router";
 import NavBar from "./components/NavBar/NavBar.vue";
+import Burger from "./components/menu/Burger.vue";
+import Sidebar from "./components/menu/Sidebar.vue";
 </script>
 
 <template>
   <header>
-    <!-- <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" /> -->
     <NavBar class="web-nav" />
 
     <!-- Navigation for Mobile -->
@@ -36,7 +37,7 @@ import NavBar from "./components/NavBar/NavBar.vue";
   <RouterView />
 </template>
 
-<style scoped>
+<style>
 @font-face {
   font-family: "Montserrat-Bold";
   src: local("Montserrat-Bold"),
@@ -69,8 +70,9 @@ body {
   font-family: "Montserrat-Light", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  max-height: 100vh;
+  /* max-height: 100vh; */
   height: calc(100vh - 81px - 54px);
+  max-height: 100%;
 }
 
 h1 {

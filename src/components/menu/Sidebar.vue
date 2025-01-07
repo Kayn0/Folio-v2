@@ -12,7 +12,6 @@
             About
           </router-link>
           <a href="/kane-maslen-resume.pdf" download="kane-maslen-resume.pdf">Resume</a>
-
         </ul>
       </div>
     </transition>
@@ -20,7 +19,6 @@
 </template>
 <script>
 import { store, mutations } from "@/store.js";
-
 export default {
   methods: {
     closeSidebarPanel: mutations.toggleNav,
@@ -58,7 +56,7 @@ export default {
   overflow-y: auto;
   background-color: #222222;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-  color: #FFFFFF;
+  color: #ffffff;
   position: fixed;
   left: 0;
   top: 0;
@@ -77,10 +75,9 @@ ul.sidebar-panel-nav {
   transition: all 0.3s ease;
 }
 
-
 a:-webkit-any-link {
   text-decoration: none;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 ul.sidebar-panel-nav > ul > a {

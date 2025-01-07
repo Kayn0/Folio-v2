@@ -10,6 +10,7 @@
     </slot>
   </div>
 </template>
+
 <script>
 import { store, mutations } from "@/store.js";
 
@@ -26,7 +27,7 @@ export default {
   },
 };
 </script>
-<style>
+<style scoped>
 .hidden {
   visibility: hidden;
 }
@@ -59,7 +60,7 @@ button:focus {
 }
 
 .burger-bar {
-  background-color: #457B9D;
+  background-color: #457b9d;
   position: absolute;
   top: 50%;
   right: 6px;
@@ -99,7 +100,7 @@ button:focus {
 }
 
 #burger.active .burger-bar {
-  background-color: #F14D59;
+  background-color: #f14d59;
 }
 
 #burger.active .burger-bar--1 {
