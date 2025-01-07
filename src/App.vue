@@ -120,7 +120,7 @@ h6 {
 p {
   font-size: 16px;
   font-family: "Montserrat-Light", sans-serif;
-  line-height: 40px;
+  line-height: 1.8;
   margin: 0;
 }
 
