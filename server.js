@@ -1,4 +1,4 @@
-const express = use('express')
+const express = import('express')
 const app = express()
 
 // Serve all the files in '/dist' directory
