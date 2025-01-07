@@ -1,0 +1,17 @@
+@import './base.css';
+
+#app {
+  margin: 0 auto;
+  width: 100vw;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+@media (min-width: 1024px) {
+  body {
+    display: flex;
+  }
+}
